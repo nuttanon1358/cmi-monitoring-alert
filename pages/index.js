@@ -11,7 +11,7 @@ export default function Home() {
     <Layout>
       <Header style={{ textAlign: 'center' }}>
         <Title level={2} style={{ color: 'white', marginTop: '6px' }}>
-          CMI Monitoring Dashboard Simulation
+          Monitoring Dashboard Simulation
         </Title>
       </Header>
       <Content style={{ padding: '50px 50px' }}>
