@@ -17,7 +17,7 @@ const { Text } = Typography;
 
 export default function Graph({ client, isShowSimBtn = false }) {
   const [data, setData] = useState([{ x: new Date().getTime(), y: 0 }]);
-  const [level, setLevel] = useState('normal');
+  const [level, setLevel] = useState('random');
   const [currentValue, setCurrentValue] = useState(0);
   const [lastAlertValue, setLastAlertValue] = useState(0);
 
