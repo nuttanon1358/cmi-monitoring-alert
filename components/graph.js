@@ -90,15 +90,15 @@ export default function Graph({ client, isShowSimBtn = false }) {
               style={{
                 verticalAlign: 'middle',
                 color:
-                  currentValue === 100
+                  currentValue >= 90
                     ? '#ff4d4f'
-                    : currentValue >= 95
+                    : currentValue >= 70
                     ? '#fa8c16'
                     : '#237804',
                 backgroundColor:
-                  currentValue === 100
+                  currentValue === 90
                     ? '#ffa39e'
-                    : currentValue >= 95
+                    : currentValue >= 70
                     ? '#ffd591'
                     : '#95de64',
               }}
